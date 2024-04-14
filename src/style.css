@@ -1,0 +1,37 @@
+body {
+  color: white;
+}
+
+.container {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/123/143/original/Slay_the_Spire_defect.0.jpg?1713122496");
+  background-size: cover;
+  padding: 7px;
+  max-width: 500px;
+  min-width: 50%;
+}
+
+ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+li {
+  display: inline-block;
+  margin: 5px 5px 5px 0;
+  padding: 10px;
+}
+
+.energy-list {
+  max-width: 250px;
+}
+.energy-list li {
+  background: rgb(11, 179, 11);
+}
+
+.block-list li {
+  background: rgb(36, 138, 247);
+}
+
+.hp-list li {
+  background: rgb(247, 41, 41);
+}
