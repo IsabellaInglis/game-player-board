@@ -5,7 +5,7 @@ body {
 .container {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/123/143/original/Slay_the_Spire_defect.0.jpg?1713122496");
   background-size: cover;
-  padding: 7px;
+  padding: 20px;
   max-width: 600px;
   min-width: 500px;
   margin: 45px auto;
@@ -19,25 +19,41 @@ ul {
 li {
   display: inline-block;
   margin: 5px 5px 5px 0;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
-.energy-list {
+.block-list {
   background: black;
-  max-width: 270px;
-}
-.energy-list li {
-  background: rgb(11, 179, 11);
-}
-
-.block-list li {
-  background: rgb(36, 138, 247);
-  padding: 10px;
+  max-width: 260px;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
 }
 
-.hp-list li {
-  background: rgb(247, 41, 41);
-  padding: 10px;
+.hp-list {
+  background: black;
+  max-width: 260px;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.energy-points {
+  background: black;
+  max-width: 260px;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.block-list {
+  background: black;
+  max-width: 440px;
+}
+
+.hp-list {
+  background: black;
+  max-width: 395px;
 }
 
 button {
@@ -52,4 +68,17 @@ button {
   color: white;
   border: none;
   cursor: pointer;
+}
+
+.energy-points button {
+  background-color: rgb(11, 179, 11);
+  margin: 5px;
+}
+
+.block-list button {
+  background-color: rgb(56, 117, 183);
+}
+
+.hp-list button {
+  background-color: rgb(159, 30, 30);
 }
