@@ -11,33 +11,6 @@ body {
   margin: 45px auto;
 }
 
-ul {
-  list-style: none;
-  padding-left: 5px;
-}
-
-li {
-  display: inline-block;
-  margin: 5px 5px 5px 0;
-  border-radius: 10px;
-}
-
-.block-list {
-  background: black;
-  max-width: 260px;
-  display: flex;
-  justify-content: space-between;
-  margin: 5px;
-}
-
-.hp-list {
-  background: black;
-  max-width: 260px;
-  display: flex;
-  justify-content: space-between;
-  margin: 5px;
-}
-
 .energy-points {
   background: black;
   max-width: 260px;
@@ -48,11 +21,17 @@ li {
 
 .block-list {
   background: black;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
   max-width: 440px;
 }
 
 .hp-list {
   background: black;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
   max-width: 395px;
 }
 
@@ -61,22 +40,18 @@ button {
   justify-content: center;
   width: 35px;
   height: 33px;
-  text-align: center;
   padding-top: 9px;
   text-decoration: none;
-  background-color: rgb(11, 179, 11);
+  background-color: rgb(6, 111, 6);
   color: white;
   border: none;
   cursor: pointer;
-}
-
-.energy-points button {
-  background-color: rgb(11, 179, 11);
+  border-radius: 3px;
   margin: 5px;
 }
 
 .block-list button {
-  background-color: rgb(56, 117, 183);
+  background-color: rgb(15, 94, 179);
 }
 
 .hp-list button {

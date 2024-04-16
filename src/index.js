@@ -31,7 +31,7 @@ addButtonFunctionality({
   containerSelector: `.block-list`,
   colors: {
     selected: `rgb(36, 138, 247)`,
-    unselected: `rgb(56, 117, 183)`,
+    unselected: `rgb(15, 94, 179)`,
   },
 });
 
