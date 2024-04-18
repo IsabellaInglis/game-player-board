@@ -3,7 +3,7 @@ const addButtonFunctionality = ({ containerSelector, colors }) => {
   const energyContainer = document.querySelector(containerSelector);
   const energyButtons = energyContainer.querySelectorAll(`button`);
 
-  const assignEnergyButtonColours = () => {
+  const assignButtonColours = () => {
     energyButtons.forEach((energyButton) => {
       energyButton.style.backgroundColor =
         Number(energyButton.id) <= energyCount
@@ -16,7 +16,7 @@ const addButtonFunctionality = ({ containerSelector, colors }) => {
     energyButton.addEventListener(`click`, (item) => {
       const id = item.target.id;
       energyCount = id;
-      assignEnergyButtonColours();
+      assignButtonColours();
     });
   });
 };
